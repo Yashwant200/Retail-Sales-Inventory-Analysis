@@ -1,6 +1,6 @@
 # Retail-Sales-Inventory-Analysis
 
-# 🛍️ Retail Sales & Inventory Analysis Dashboard
+# 🛍️ Retail Sales & Inventory Analysis 
 
 A data-driven Power BI dashboard that provides actionable insights into retail product performance, sales trends, and inventory management. Built using Power BI, DAX, and structured CSV datasets.
 
@@ -70,6 +70,11 @@ A detailed [project report](Retail_Sales_Inventory_Analysis_Report.docx) is incl
 - DAX Logic
 - Business Insights
 - Recommendations
+
+## DAX Measures Used
+Total Revenue =	SUMX(sales, quantity_sold * RELATED(price))
+Total Units Sold =	SUM(sales[quantity_sold])
+Inventory Turnover =	DIVIDE(SUM(sales[quantity_sold]), AVERAGE(inventory[quantity_in_stock]))
 
 ---
 
