@@ -1,0 +1,17 @@
+product_id,product_name,category,price
+1,Smartphone,Electronics,323.32
+2,Laptop,Electronics,22.26
+3,Headphones,Electronics,144.76
+4,Smartwatch,Electronics,119.37
+5,Rice,Grocery,370.87
+6,Wheat Flour,Grocery,341.58
+7,Cooking Oil,Grocery,447.17
+8,Sugar,Grocery,52.6
+9,T-Shirt,Clothing,216.74
+10,Jeans,Clothing,24.6
+11,Jacket,Clothing,117.13
+12,Dress,Clothing,257.62
+13,Vacuum Cleaner,Home,23.0
+14,Curtains,Home,107.43
+15,Lamp,Home,328.44
+16,Chair,Home,277.02
